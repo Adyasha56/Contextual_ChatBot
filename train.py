@@ -4,7 +4,7 @@ import numpy as np
 
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset,DataLoader 
+from torch.utils.data import Dataset,DataLoader
 from model import NeuralNet
 
 with open("intents.json","r") as f:
@@ -36,7 +36,7 @@ for (pattern_sentence,tag)  in xy:
     x_train.append(bag)
 
     label = tags.index(tag)
-    y_train.append(label)  
+    y_train.append(label)
 
 x_train = np.array(x_train)
 y_train = np.array(y_train)
@@ -50,7 +50,7 @@ class ChatDataset(Dataset):
     # dataset[idx]
     def __getitem__(self, index):
            return self.x_data[index] ,self.y_data[index]
-    
+
     def __len__(self):
         return self.n_samples
 
@@ -92,7 +92,7 @@ for epoch in range(num_epochs):
     if (epoch+1) % 100 == 0:
         print(f'Epoch [{epoch+1} / {num_epochs}],Loss: {loss.item():.4f}')
 
-print(f'final loss: {loss.item():.4f}') 
+print(f'final loss: {loss.item():.4f}')
 
 data = {
     "model_state":model.state_dict(),
@@ -107,4 +107,3 @@ FILE = "data.pth"
 torch.save(data,FILE)
 
 print(f"training complete.file saved to {FILE}")
-
