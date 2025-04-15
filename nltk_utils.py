@@ -1,6 +1,8 @@
 import nltk
+import random
+nltk.download('punkt_tab')
+
 import numpy as np
-# nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 
 stemmer = PorterStemmer()
