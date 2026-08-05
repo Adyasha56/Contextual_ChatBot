@@ -8,7 +8,11 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Whats up"
       ],
       "responses": [
         "Hey :-)",
@@ -19,7 +23,14 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "See you soon",
+        "Catch you later"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,20 +39,34 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Thanks a bunch",
+        "Much appreciated",
+        "That was helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "What is available?",
+        "Show me what you have"
       ],
       "responses": [
         "We sell coffee and tea",
         "We have coffee and tea",
-        "We are selling differnt varieties of coffee and tea in indian style"
+        "We are selling different varieties of coffee and tea in Indian style"
       ]
     },
     {
@@ -50,11 +75,14 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "Can I pay online?",
+        "Do you accept UPI?"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, Paypal and UPI"
       ]
     },
     {
@@ -62,7 +90,10 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "What is the delivery time?",
+        "How fast is shipping?",
+        "When will my order arrive?"
       ],
       "responses": [
         "Delivery takes 2-4 days",
@@ -74,12 +105,108 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something funny"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
-        
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What time do you open?",
+        "When do you close?",
+        "Are you open on Sunday?",
+        "What are your working hours?",
+        "Are you open today?",
+        "What time does the shop close?",
+        "When are you available?"
+      ],
+      "responses": [
+        "We are open from 9am to 10pm every day!",
+        "Our store hours are 9am to 10pm, 7 days a week."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What is on the menu?",
+        "What drinks do you have?",
+        "Show me the menu",
+        "What food do you serve?",
+        "What beverages are available?",
+        "Do you have chai?",
+        "Do you have cold coffee?",
+        "What snacks do you have?"
+      ],
+      "responses": [
+        "Our menu includes Masala Chai, Filter Coffee, Cold Coffee, Matcha Latte and various Indian style snacks!",
+        "We serve Masala Chai, Filter Coffee, Cold Coffee, Green Tea and snacks like samosa and biscuits."
+      ]
+    },
+    {
+      "tag": "reservations",
+      "patterns": [
+        "Can I book a table?",
+        "I want to reserve a seat",
+        "How do I make a reservation?",
+        "Can I book for 2 people?",
+        "Do you take reservations?",
+        "I want to book a table for tonight"
+      ],
+      "responses": [
+        "Yes! You can reserve a table by calling us or visiting in person.",
+        "We accept reservations! Please call us to book your table."
+      ]
+    },
+    {
+      "tag": "complaints",
+      "patterns": [
+        "My order was wrong",
+        "I have a complaint",
+        "This is not what I ordered",
+        "I am not happy with my order",
+        "The coffee was bad",
+        "I want to complain",
+        "Bad experience"
+      ],
+      "responses": [
+        "We are really sorry about that! Please contact us and we will make it right.",
+        "We apologize for the inconvenience. Please reach out to us and we will resolve it immediately."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "How do I find your shop?",
+        "Where is ZapCaf?",
+        "Give me directions",
+        "Which area are you in?"
+      ],
+      "responses": [
+        "We are located in the heart of the city! DM us for the exact address.",
+        "ZapCaf is centrally located. Contact us for directions!"
+      ]
+    },
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any discounts?",
+        "Do you have deals today?",
+        "Any offers available?",
+        "Is there a happy hour?",
+        "Any coupon codes?",
+        "Do you have student discounts?",
+        "Any weekend offers?"
+      ],
+      "responses": [
+        "Yes! We have a happy hour from 4pm to 6pm with 20% off on all drinks!",
+        "Check our Instagram for the latest deals and discount codes!"
       ]
     }
   ]
