@@ -12,7 +12,11 @@
         "Good morning",
         "Good afternoon",
         "Good evening",
-        "Whats up"
+        "Whats up",
+        "Hey there",
+        "Hii",
+        "Helo",
+        "Sup"
       ],
       "responses": [
         "Hey :-)",
@@ -29,7 +33,11 @@
         "Goodbye",
         "Take care",
         "See you soon",
-        "Catch you later"
+        "Catch you later",
+        "Ok bye",
+        "Alright bye",
+        "That's all",
+        "I am done"
       ],
       "responses": [
         "See you later, thanks for visiting",
@@ -46,7 +54,13 @@
         "Thank's a lot!",
         "Thanks a bunch",
         "Much appreciated",
-        "That was helpful"
+        "That was helpful",
+        "Ok thanks",
+        "Ok thank you",
+        "Sounds good thanks",
+        "Ok sounds good",
+        "Alright thanks",
+        "Great thanks"
       ],
       "responses": [
         "Happy to help!",
@@ -61,7 +75,12 @@
         "What kinds of items are there?",
         "What do you sell?",
         "What is available?",
-        "Show me what you have"
+        "Show me what you have",
+        "What do you offer?",
+        "What can I order?",
+        "What do you have?",
+        "What do you serve?",
+        "What are you serving?"
       ],
       "responses": [
         "We sell coffee and tea",
@@ -78,11 +97,19 @@
         "Are you cash only?",
         "What payment methods do you accept?",
         "Can I pay online?",
-        "Do you accept UPI?"
+        "Do you accept UPI?",
+        "Do you receive cash?",
+        "Do u receive cash?",
+        "Do u take cash?",
+        "Can I pay by cash?",
+        "Is cash accepted?",
+        "Do you accept cash?",
+        "Can I pay with card?",
+        "Do u accept card?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, Paypal and UPI"
+        "We accept cash, VISA, Mastercard, Paypal and UPI!",
+        "We accept most major credit cards, cash, Paypal and UPI."
       ]
     },
     {
@@ -93,11 +120,17 @@
         "When do I get my delivery?",
         "What is the delivery time?",
         "How fast is shipping?",
-        "When will my order arrive?"
+        "When will my order arrive?",
+        "How long for delivery?",
+        "Delivery time?",
+        "Where is my order?",
+        "Where is my delivery?",
+        "Has my order shipped?",
+        "Is my order on the way?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Our delivery partner is on the way, will deliver you shortly!",
+        "Your order is on the way! Our delivery partner will reach you shortly."
       ]
     },
     {
@@ -107,7 +140,9 @@
         "Tell me something funny!",
         "Do you know a joke?",
         "Make me laugh",
-        "Say something funny"
+        "Say something funny",
+        "Got any jokes?",
+        "Entertain me"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
@@ -123,7 +158,12 @@
         "What are your working hours?",
         "Are you open today?",
         "What time does the shop close?",
-        "When are you available?"
+        "When are you available?",
+        "Are you available?",
+        "Are you open?",
+        "Timings?",
+        "What are your hours?",
+        "Shop timings?"
       ],
       "responses": [
         "We are open from 9am to 10pm every day!",
@@ -140,11 +180,61 @@
         "What beverages are available?",
         "Do you have chai?",
         "Do you have cold coffee?",
-        "What snacks do you have?"
+        "What snacks do you have?",
+        "menu",
+        "menu?",
+        "show menu",
+        "your menu",
+        "see menu",
+        "what is your menu",
+        "do u serve coffee",
+        "do you serve coffee",
+        "do you have matcha",
+        "do you have matcha latte",
+        "what is your must try",
+        "what should I try",
+        "must try item",
+        "best item",
+        "what is popular",
+        "what is your specialty",
+        "recommend something",
+        "what do you recommend"
       ],
       "responses": [
-        "Our menu includes Masala Chai, Filter Coffee, Cold Coffee, Matcha Latte and various Indian style snacks!",
-        "We serve Masala Chai, Filter Coffee, Cold Coffee, Green Tea and snacks like samosa and biscuits."
+        "Our menu:  Filter Coffee,  Masala Chai,  Cold Coffee,  Matcha Latte,  Green Tea,  Samosa,  Biscuits. Must try — Matcha Latte and Masala Chai!",
+        "We serve Filter Coffee, Masala Chai, Cold Coffee, Matcha Latte, Green Tea, Samosa and Biscuits. Our specialty is the Masala Chai!"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "What is the price?",
+        "How much is the coffee?",
+        "What is the price for matcha latte?",
+        "How much for chai?",
+        "Price?",
+        "Prices?",
+        "How much?",
+        "What does it cost?",
+        "Is it expensive?",
+        "How much is matcha?",
+        "Price of filter coffee",
+        "Cost of cold coffee",
+        "How much for a coffee?",
+        "What are the prices?",
+        "How much is cold coffee?",
+        "How much is green tea?",
+        "Price of samosa",
+        "How much is masala chai?",
+        "Price list?",
+        "Give me the price list",
+        "What is the cost?",
+        "How much for biscuits?"
+      ],
+      "responses": [
+        "Here is our price list:\n Masala Chai — ₹20\n Filter Coffee — ₹30\n Green Tea — ₹35\n Cold Coffee — ₹45\n Matcha Latte — ₹99\n Biscuits — ₹20\n Samosa — ₹50",
+        "Our prices:\n Masala Chai — ₹20\n Filter Coffee — ₹30\n Green Tea — ₹35\n Cold Coffee — ₹45\n Matcha Latte — ₹99\n Biscuits — ₹20\n Samosa — ₹50"
       ]
     },
     {
@@ -155,7 +245,10 @@
         "How do I make a reservation?",
         "Can I book for 2 people?",
         "Do you take reservations?",
-        "I want to book a table for tonight"
+        "I want to book a table for tonight",
+        "Table booking?",
+        "Can I reserve?",
+        "Book a table"
       ],
       "responses": [
         "Yes! You can reserve a table by calling us or visiting in person.",
@@ -171,7 +264,10 @@
         "I am not happy with my order",
         "The coffee was bad",
         "I want to complain",
-        "Bad experience"
+        "Bad experience",
+        "Terrible service",
+        "I am disappointed",
+        "This is not good"
       ],
       "responses": [
         "We are really sorry about that! Please contact us and we will make it right.",
@@ -186,7 +282,10 @@
         "How do I find your shop?",
         "Where is ZapCaf?",
         "Give me directions",
-        "Which area are you in?"
+        "Which area are you in?",
+        "Where are you?",
+        "Location?",
+        "Address?"
       ],
       "responses": [
         "We are located in the heart of the city! DM us for the exact address.",
@@ -202,7 +301,10 @@
         "Is there a happy hour?",
         "Any coupon codes?",
         "Do you have student discounts?",
-        "Any weekend offers?"
+        "Any weekend offers?",
+        "Any deals?",
+        "Offers?",
+        "Discount?"
       ],
       "responses": [
         "Yes! We have a happy hour from 4pm to 6pm with 20% off on all drinks!",

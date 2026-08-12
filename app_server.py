@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from chat import get_response
 
 app = Flask(__name__)
+app.json.ensure_ascii = False
 
 @app.route("/")
 def home():
